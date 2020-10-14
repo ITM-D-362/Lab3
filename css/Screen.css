@@ -21,7 +21,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: 'Comic Sans MS', 'Impact', sans-serif; /* 1 */
+  font-family: 'Comic Sans MS', 'Lucida Sans Unicode', 'Impact', sans-serif; /* 1 */
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
@@ -208,7 +208,24 @@ label {
 
 /* ===== STATE STYLES ======= */
 html{
-font-family: 'Comic Sans MS', 'Impact', sans-serif; /* 1 */
+font-family: 'Comic Sans MS', 'Lucida Sans Unicode', 'Impact', sans-serif; /* 1 */
 background-color: #c42cf6;
 text-align: center;
+}
+h1 {
+  font-size: 2em;
+  padding-bottom: 50px;
+
+}
+p{
+  font-size: 1.5em;
+  padding: 60px;
+}
+li{
+  padding: 20px;
+}
+input{
+  background-color: grey;
+  padding: 8px;
+  border: 0px;
 }
